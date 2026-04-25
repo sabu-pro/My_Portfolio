@@ -1,0 +1,6 @@
+IMPORTANT: Add your files to this folder before deploying.
+
+1. photo.png  → Your profile photo (the one you shared)
+2. resume.pdf → Your resume PDF (rename your resume file to resume.pdf)
+
+Both files go directly inside the /public/ folder.
