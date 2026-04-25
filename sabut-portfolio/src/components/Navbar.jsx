@@ -182,7 +182,7 @@ export default function Navbar() {
             marginBottom: "1rem",
           }}
         >
-          // navigation
+          {/* navigation */}
         </p>
         {navLinks.map((link) => (
           <a

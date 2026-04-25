@@ -70,7 +70,7 @@ export default function Experience() {
                 marginBottom: "1.5rem",
               }}
             >
-              // Work Experience
+              {/* Work Experience */}
             </h3>
             {experiences.map((exp) => (
               <div
@@ -226,7 +226,7 @@ export default function Experience() {
                 marginBottom: "1.5rem",
               }}
             >
-              // Education
+              {/* Education */}
             </h3>
             {education.map((edu) => (
               <div
