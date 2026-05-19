@@ -86,8 +86,7 @@ export default function Contact() {
               margin: "0.75rem auto 0",
             }}
           >
-            I&apos;m currently open to internships, junior IT/cybersecurity roles, and
-            collaboration opportunities. Feel free to reach out!
+           I am currently open to IT Support, Helpdesk Analyst, Service Desk Analyst, and junior cybersecurity opportunities, including internships and collaborative projects. Feel free to reach out.
           </p>
         </div>
 
@@ -255,7 +254,7 @@ export default function Contact() {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="John Smith"
+                    placeholder="Your name"
                     required
                     className="contact-input"
                   />
@@ -279,7 +278,7 @@ export default function Contact() {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="john@company.com"
+                    placeholder="your.email@example.com"
                     required
                     className="contact-input"
                   />
@@ -328,7 +327,7 @@ export default function Contact() {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Tell me about the opportunity or how I can help..."
+                  placeholder="Hi Sabut, I would like to discuss..."
                   required
                   rows={5}
                   className="contact-input"

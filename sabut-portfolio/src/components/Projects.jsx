@@ -10,15 +10,7 @@ const projects = [
     status: "Live",
     links: [],
   },
-  {
-    icon: "🔍",
-    title: "Home Network Vulnerability Lab",
-    description:
-      "Built a personal home lab using VirtualBox to simulate enterprise network environments. Practiced vulnerability scanning with Nmap and Nessus, and performed controlled penetration tests using Metasploit.",
-    tags: ["Kali Linux", "Nmap", "Metasploit", "Nessus", "VirtualBox"],
-    status: "In Progress",
-    links: [],
-  },
+  
   {
     icon: "🛡️",
     title: "Active Directory Security Simulation",
@@ -37,18 +29,7 @@ const projects = [
     status: "Completed",
     links: [],
   },
-  {
-    icon: "🐍",
-    title: "Python Security Scripts",
-    description:
-      "Developed a collection of Python scripts for security automation including port scanners, password strength checkers, log parsers, and basic network monitoring tools. Strengthened scripting skills for blue-team workflows.",
-    tags: ["Python", "Bash", "Automation", "Security Scripting"],
-    status: "In Progress",
-    links: [
-      { label: "GitHub", href: "https://github.com/sabu-pro" },
-    ],
-  },
-  {
+    {
     icon: "🗄️",
     title: "SQL Database Security Analysis",
     description:
@@ -57,6 +38,36 @@ const projects = [
     status: "Completed",
     links: [],
   },
+
+   {
+    icon: "🔍",
+    title: "Home Network Vulnerability Lab",
+    description:
+      "Built a personal home lab using VirtualBox to simulate enterprise network environments. Practiced vulnerability scanning with Nmap and Nessus, and performed controlled penetration tests using Metasploit.",
+    tags: ["Kali Linux", "Nmap", "Metasploit", "Nessus", "VirtualBox"],
+    status: "In Progress",
+    links: [],
+  },
+  {
+    icon: "🔍",
+    title: "Home Network Vulnerability Lab",
+    description:
+      "Built a personal home lab using VirtualBox to simulate enterprise network environments. Practiced vulnerability scanning with Nmap and Nessus, and performed controlled penetration tests using Metasploit.",
+    tags: ["Kali Linux", "Nmap", "Metasploit", "Nessus", "VirtualBox"],
+    status: "In Progress",
+    links: [],
+  },
+  
+  {
+    icon: "🐍",
+    title: "Python Security Scripts",
+    description:
+      "Developed a collection of Python scripts for security automation including port scanners, password strength checkers, log parsers, and basic network monitoring tools. Strengthened scripting skills for blue-team workflows.",
+    tags: ["Python", "Bash", "Automation", "Security Scripting"],
+    status: "In Progress",
+    
+  },
+
 ];
 
 export default function Projects() {
@@ -92,8 +103,8 @@ export default function Projects() {
               margin: "0.75rem auto 0",
             }}
           >
-            Hands-on projects built through labs, coursework, and self-study —
-            where I apply cybersecurity concepts in practice.
+            Hands-on IT and cybersecurity projects developed through labs, coursework, 
+            and self-study, applying practical skills in troubleshooting, networking, and security.
           </p>
         </div>
 

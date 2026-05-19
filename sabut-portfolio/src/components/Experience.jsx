@@ -300,7 +300,7 @@ export default function Experience() {
               <div
                 style={{ display: "flex", alignItems: "center", gap: "12px" }}
               >
-                <span style={{ fontSize: "1.5rem" }}>🇬🇧</span>
+                <span style={{ fontSize: "1.5rem" }}>🌐</span>
                 <div>
                   <p
                     style={{
@@ -317,7 +317,7 @@ export default function Experience() {
                       color: "var(--text-muted)",
                     }}
                   >
-                    Professional Proficiency
+                    Professional working Proficiency
                   </p>
                 </div>
               </div>

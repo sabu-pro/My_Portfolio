@@ -35,20 +35,15 @@ const skillCategories = [
 ];
 
 const tools = [
-  "Kali Linux",
-  "Wireshark",
-  "Nmap",
-  "Metasploit",
-  "Burp Suite",
-  "Nessus",
-  "VirtualBox",
-  "VMware",
-  "Active Directory",
-  "Git",
-  "VS Code",
-  "MySQL",
-  "PowerShell",
-  "Cisco Packet Tracer",
+  "Cybersecurity Testing & Lab Practice",
+  "Network Security & Packet Analysis",
+  "Vulnerability Assessment & Reporting",
+  "Firewall, VPN & Access Control Configuration",
+  "Windows Server, Active Directory & Group Policy",
+  "Linux Administration & Command-Line Tools",
+  "Virtualisation with Windows/Linux Lab Environments",
+  "Web Development, Databases & Version Control",
+  "Security Frameworks, Risk Assessment & Documentation"
 ];
 
 function SkillBar({ name, level, visible }) {

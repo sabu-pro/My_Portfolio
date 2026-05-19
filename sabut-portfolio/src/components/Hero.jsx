@@ -140,7 +140,7 @@ export default function Hero() {
                 opacity: 0,
               }}
             >
-              Sabut{" "}
+              Sabut BK{" "}
               <span className="gradient-text">B K</span>
             </h1>
 

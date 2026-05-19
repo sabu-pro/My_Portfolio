@@ -178,8 +178,8 @@ export default function About() {
                 letterSpacing: "-0.02em",
               }}
             >
-              Cybersecurity Student &amp;{" "}
-              <span className="accent-text">Problem Solver</span>
+              IT Support &amp;{" "}
+<span className="accent-text">Cybersecurity Enthusiast</span>
             </h3>
 
             <div
@@ -191,36 +191,36 @@ export default function About() {
                 fontSize: "0.95rem",
                 lineHeight: 1.85,
               }}
-            >
-              <p>
-                I&apos;m passionate about cybersecurity and love exploring how
-                systems work — and how to protect them. I enjoy setting up my
-                own labs to experiment with networks, coding, and security
-                tools, learning by doing.
-              </p>
-              <p>
-                I have hands-on experience with{" "}
-                <span style={{ color: "var(--accent)", fontWeight: 600 }}>
-                  Linux systems and Active Directory
-                </span>
-                , understanding how they form the backbone of enterprise
-                networks and why securing them is critical in today&apos;s
-                digital world.
-              </p>
-              <p>
-                Over time, I&apos;ve gained hands-on experience in{" "}
-                <span style={{ color: "var(--accent)", fontWeight: 600 }}>
-                  networking, ethical hacking, and vulnerability testing
-                </span>
-                , and I&apos;m always excited to tackle new challenges.
-              </p>
-              <p>
-                I also value communication and teamwork, knowing that solving
-                cybersecurity problems often requires collaboration. My goal is
-                to help organizations stay safe from cyber threats while
-                continuing to grow my skills and knowledge in this ever-evolving
-                field.
-              </p>
+            ><p>
+  I&apos;m an IT and cybersecurity student with a strong interest in
+  troubleshooting, networking, system support, and security. I enjoy learning
+  how systems work, solving technical problems, and building practical skills
+  through labs, coursework, and personal projects.
+</p>
+
+<p>
+  I have hands-on experience with{" "}
+  <span style={{ color: "var(--accent)", fontWeight: 600 }}>
+    Windows and Linux systems, Active Directory, virtual machines, and networking concepts
+  </span>
+  . These experiences have helped me build a strong foundation for both IT
+  support and cybersecurity-focused roles.
+</p>
+
+<p>
+  I&apos;m particularly interested in{" "}
+  <span style={{ color: "var(--accent)", fontWeight: 600 }}>
+    IT Support, Helpdesk Analyst, Service Desk Analyst, and junior cybersecurity roles
+  </span>
+  , where I can apply my problem-solving skills, communication skills, and
+  technical knowledge in real workplace environments.
+</p>
+
+<p>
+  I value clear communication, teamwork, reliability, and continuous learning.
+  My goal is to support users, help maintain secure systems, and continue
+  growing as an IT and cybersecurity professional.
+</p>
             </div>
 
             {/* Highlight cards */}
