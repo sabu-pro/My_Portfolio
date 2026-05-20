@@ -5,6 +5,7 @@ const certifications = [
     issuer: "ISC2",
     date: "Jan 2026",
     credentialId: "22d15f01-bde8-45fb-b15b-e36b34540821",
+    certificateUrl: "/cc.pdf",
     description:
       "Completed the ISC2 Certified in Cybersecurity (CC) certificate, covering security principles, network security, access control, and incident response foundations.",
     color: "#6366f1",
@@ -15,6 +16,7 @@ const certifications = [
     issuer: "Institute of Applied Technology (Digital)",
     date: "Mar 2026",
     credentialId: "MARKgzLCyc",
+    certificateUrl: "/sqlcert.jpeg",
     description:
       "Completed the Introduction to SQL Microskill program covering database fundamentals, SQL queries, and data management from the Institute of Applied Technology (NSW).",
     color: "#0891b2",
@@ -25,11 +27,24 @@ const certifications = [
     issuer: "Technology Channel",
     date: "Jan 2026",
     credentialId: "0608d5b0-b8e8-5674-a971-cd19dd80c7a6",
+    certificateUrl: "/git.png",
     description:
       "Completed the Git & GitHub Certification Course covering version control, Git commands, GitHub repositories, branching, pull requests, and collaborative development workflows.",
     color: "#22c55e",
   },
+  {
+  icon: "🎓",
+  title: "Dean’s Honours List",
+  issuer: "Victorian Institute of Technology",
+  date: "Apr 2025",
+  credentialId: "Academic Achievement",
+  certificateUrl: "/deanaward.jpeg",
+  description:
+    "Recognised for completing a full study plan in Semester 2, 2024 and achieving a GPA of 4.50 or above.",
+  color: "#f59e0b",
+},
 ];
+
 
 export default function Certifications() {
   return (
@@ -38,8 +53,9 @@ export default function Certifications() {
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: "3.5rem" }}>
           <span className="section-tag">
-            <span>🏅</span> Certifications
+            <span>🏅</span> Achievements
           </span>
+
           <h2
             style={{
               fontFamily: "var(--font-syne)",
@@ -49,8 +65,9 @@ export default function Certifications() {
               color: "var(--text-primary)",
             }}
           >
-            Licenses &amp; Certifications
+            Licenses, Certifications &amp; Achievements
           </h2>
+
           <p
             style={{
               color: "var(--text-muted)",
@@ -60,10 +77,12 @@ export default function Certifications() {
               margin: "0.75rem auto 0",
             }}
           >
-            Verified credentials demonstrating continuous learning and professional development.
+            A collection of certifications and academic achievements 
+            demonstrating continuous learning, technical growth, and strong academic performance.
           </p>
         </div>
 
+        {/* Certification Cards */}
         <div
           style={{
             display: "grid",
@@ -98,6 +117,7 @@ export default function Certifications() {
                 >
                   {cert.icon}
                 </div>
+
                 <div>
                   <p
                     style={{
@@ -109,6 +129,7 @@ export default function Certifications() {
                   >
                     {cert.issuer}
                   </p>
+
                   <p
                     style={{
                       fontFamily: "var(--font-mono)",
@@ -147,35 +168,68 @@ export default function Certifications() {
                 {cert.description}
               </p>
 
-              {/* Credential ID */}
+              {/* View Certificate + Credential ID */}
               <div
                 style={{
-                  padding: "8px 12px",
-                  background: "var(--bg-primary)",
-                  borderRadius: "8px",
-                  border: "1px solid var(--border)",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "0.7rem",
                 }}
               >
-                <p
+                {cert.certificateUrl && (
+                  <a
+                    href={cert.certificateUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      padding: "9px 12px",
+                      borderRadius: "8px",
+                      background: `${cert.color}18`,
+                      border: `1px solid ${cert.color}44`,
+                      color: cert.color,
+                      fontSize: "0.78rem",
+                      fontWeight: 600,
+                      textDecoration: "none",
+                      transition: "all 0.2s ease",
+                    }}
+                  >
+                    View Certificate →
+                  </a>
+                )}
+
+                <div
                   style={{
-                    fontFamily: "var(--font-mono)",
-                    fontSize: "0.65rem",
-                    color: "var(--text-muted)",
-                    marginBottom: "2px",
+                    padding: "8px 12px",
+                    background: "var(--bg-primary)",
+                    borderRadius: "8px",
+                    border: "1px solid var(--border)",
                   }}
                 >
-                  Credential ID
-                </p>
-                <p
-                  style={{
-                    fontFamily: "var(--font-mono)",
-                    fontSize: "0.72rem",
-                    color: cert.color,
-                    wordBreak: "break-all",
-                  }}
-                >
-                  {cert.credentialId}
-                </p>
+                  <p
+                    style={{
+                      fontFamily: "var(--font-mono)",
+                      fontSize: "0.65rem",
+                      color: "var(--text-muted)",
+                      marginBottom: "2px",
+                    }}
+                  >
+                    Credential ID
+                  </p>
+
+                  <p
+                    style={{
+                      fontFamily: "var(--font-mono)",
+                      fontSize: "0.72rem",
+                      color: cert.color,
+                      wordBreak: "break-all",
+                    }}
+                  >
+                    {cert.credentialId}
+                  </p>
+                </div>
               </div>
             </div>
           ))}

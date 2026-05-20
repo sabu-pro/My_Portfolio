@@ -182,7 +182,7 @@ export default function Skills() {
           ))}
         </div>
 
-        {/* Tools & Technologies */}
+        {/* Technical skills and Technologies*/}
         <div
           style={{
             background: "var(--bg-card)",
@@ -203,7 +203,7 @@ export default function Skills() {
               gap: "8px",
             }}
           >
-            <span>🔧</span> Tools &amp; Technologies
+            <span>🔧</span> Technical skills &amp; Tools
           </h3>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
             {tools.map((tool) => (
