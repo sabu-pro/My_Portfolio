@@ -48,15 +48,7 @@ const projects = [
     status: "In Progress",
     links: [],
   },
-  {
-    icon: "🔍",
-    title: "Home Network Vulnerability Lab",
-    description:
-      "Built a personal home lab using VirtualBox to simulate enterprise network environments. Practiced vulnerability scanning with Nmap and Nessus, and performed controlled penetration tests using Metasploit.",
-    tags: ["Kali Linux", "Nmap", "Metasploit", "Nessus", "VirtualBox"],
-    status: "In Progress",
-    links: [],
-  },
+  
   
   {
     icon: "🐍",
