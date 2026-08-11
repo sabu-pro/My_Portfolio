@@ -43,6 +43,28 @@ const certifications = [
     "Recognised for completing a full study plan in Semester 2, 2024 and achieving a GPA of 4.50 or above.",
   color: "#f59e0b",
 },
+  {
+    icon: "🎓",
+    title: "Bachelor of Information Technology and Systems (Cyber Security)",
+    issuer: "Victorian Institute of Technology (VIT)",
+    date: "Jul 2026",
+    credentialId: "62752",
+    certificateUrl: "/VIT-Degree-Completion.pdf",
+    description:
+      "Completed the Bachelor of Information Technology and Systems with a specialisation in Cyber Security, covering networking, security, penetration testing, and systems administration. Degree conferred at graduation.",
+    color: "#8b5cf6",
+  },
+  {
+    icon: "💼",
+    title: "24-Week Internship Program (IT & Systems)",
+    issuer: "Victorian Institute of Technology (VIT)",
+    date: "Jul 2026",
+    credentialId: "2473375288SB",
+    certificateUrl: "/VIT-Internship-Certificate.pdf",
+    description:
+      "Completed a 24-week industry internship program as part of the Bachelor of Information Technology and Systems, applying skills in a professional IT environment.",
+    color: "#ec4899",
+  },
 ];
 
 
