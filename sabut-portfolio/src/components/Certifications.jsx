@@ -9,6 +9,7 @@ const certifications = [
     description:
       "Completed the ISC2 Certified in Cybersecurity (CC) certificate, covering security principles, network security, access control, and incident response foundations.",
     color: "#6366f1",
+    certLink: "/ISC2cert.pdf",
   },
   {
     icon: "🗃️",
@@ -231,6 +232,27 @@ export default function Certifications() {
                   </p>
                 </div>
               </div>
+
+              {/* Certificate link */}
+              {cert.certLink && (
+                <a
+                  href={cert.certLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "6px",
+                    marginTop: "1rem",
+                    fontFamily: "var(--font-mono)",
+                    fontSize: "0.72rem",
+                    color: cert.color,
+                    textDecoration: "none",
+                  }}
+                >
+                  View Certificate <span aria-hidden="true">↗</span>
+                </a>
+              )}
             </div>
           ))}
         </div>
